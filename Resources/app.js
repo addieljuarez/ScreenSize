@@ -26,7 +26,7 @@ var botonAncho = Titanium.UI.createButton({
 });
 win.add(botonAncho);
 botonAncho.addEventListener('click', function(e){
-	alert (ancho);
+	alert (ancho + ' pixeles de ancho');
 });
 
 var botonAlto = Titanium.UI.createButton({
@@ -35,7 +35,7 @@ var botonAlto = Titanium.UI.createButton({
 });
 win.add(botonAlto);
 botonAlto.addEventListener('click', function(e){
-	alert (alto);
+	alert (alto + ' pixeles de alto');
 });
 
 win.open();
